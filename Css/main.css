@@ -520,9 +520,14 @@ a {
 
 }
 
+/*********** Clean section styles end  ***********/
+
 /********** Work section sytles start  **********/
 .work-section {
     background-color: #fff;
+    background-image: url('../images/points.png');
+    background-position: right 0;
+    background-repeat: no-repeat;
 }
 
 .work-section__wrapper {
@@ -646,6 +651,203 @@ a {
 
 /********** Work section sytles end  **********/
 
+/********** Priroty section sytles  start  **********/
+.priroty-section {
+    background-color: var(--main-bg-color);
+    background-image: url('../images/points.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
 
-/*********** Clean section styles end  ***********/
+.priroty-section__wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 122px;
+}
+
+.priroty-section__subtitle {
+    margin: 0;
+    display: inline;
+    border-bottom: 2px solid #FE6B01;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+}
+
+.priroty-section__title {
+    margin: 0;
+    margin-top: 13px;
+    width: 496px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.priroty-section__text {
+    width: 590px;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--main-text-color);
+}
+
+.priroty-section__box--item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.priroty-section__boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fe6b011a;
+}
+
+.kalenadr-box {
+    background-color: #37d3481a;
+}
+
+.notebook-box {
+    background-color: #fcdc001a;
+    ;
+}
+
+.priroty-section__box--info {
+    margin-left: 24px;
+}
+
+.priroty-section__box--title {
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    color: #050931;
+}
+
+.priroty-section__box--text {
+    margin: 0;
+    width: 505px;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--main-text-color);
+    opacity: 0.7;
+}
+
+.priroty-section__end {
+    position: relative;
+}
+
+.priroty-section__around {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: #BADAF4;
+}
+
+.priroty-section__end--images {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.priroty-img1 {
+    margin-top: auto;
+    height: 300px;
+}
+
+.priroty-img2 {
+    top: 0;
+    margin-left: 20px;
+}
+
+
+
+/********** Priroty section sytles  end  **********/
+
+
+/********** Bussines section sytles start  **********/
+.bussines-section {
+    background-color: #fff;
+}
+
+.bussines-section__box--list {
+    display: flex;
+}
+.bussines-section__wrapper{
+    position: relative;
+    display: flex;
+
+}
+
+.bussines-section__box--item {
+    position: absolute;
+    z-index: 1000;
+    padding-top: 61px;
+    padding-left: 77px;
+    padding-right: 73px;
+    background-color: #FFFFFF;
+    border: 1.53846px solid #ECECEC;
+    box-shadow: 0px 56px 80px -16px #dbdee5cc;
+    border-radius: 20px;
+}
+
+.bussines-section__box--title {
+    margin: 0;
+    margin-bottom: 22px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 100%;
+    text-align: center;
+    color: #222326;
+}
+
+.bussines-section__box--text {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #A7A7A8;
+}
+
+.bussines-section__box--number {
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    text-align: center;
+    color: #222326;
+}
+
+.bussines-section__box--number sup {
+    margin: 0;
+    font-size: 30px;
+}
+
+.bussines-section__box--text2 {
+    font-size: 28px;
+    line-height: 100%;
+    color: #222326;
+}
+.bussines-section__box2{
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    left: 290px;
+}
+/********** Bussines section sytles  end  **********/
+
+
 /********** MAIN STYLES END **********/
