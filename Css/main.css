@@ -168,6 +168,7 @@ a {
 
 /********** Service site style start ********/
 .service-site {
+    margin-bottom: 120px;
     position: relative;
     padding-top: 200px;
     padding-bottom: 41px;
@@ -251,9 +252,262 @@ a {
 
 .background-img {
     position: absolute;
-    left: 674px;
-    top: 69px;
+    left: 746px;
+    top: 168px;
 }
 
-/********** Service site style end ********/
+.service-site__end--card {
+    position: absolute;
+    top: 692px;
+    left: 950px;
+    padding: 36px 75px 36px 47px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 28px 28px 0px 0px;
+}
+
+.service-site__end--icons {
+    position: absolute;
+    bottom: 169px;
+    right: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #FFCA45;
+    border-radius: 50%;
+}
+
+.end-card__info--title {
+    margin: 0;
+    margin-bottom: 48px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    color: #222326;
+}
+
+.card-img1 {
+    border-radius: 50%;
+    background-color: #48B774;
+}
+
+.card-img2 {
+    position: absolute;
+    left: 105px;
+    top: 108px;
+    border-radius: 50%;
+    background-color: #FF8345;
+}
+
+.card-img3 {
+    position: absolute;
+    left: 167px;
+    top: 108px;
+    border-radius: 50%;
+    background-color: #FFCA45;
+}
+
+.service-card__btn {
+    position: absolute;
+    top: 108px;
+    left: 233px;
+    width: 77px;
+    height: 74px;
+    border: none;
+    border-radius: 50%;
+    background-color: #EDEDED;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #1F6BFF;
+
+}
+
+/********** Service site styles end ********/
+
+/*********** About section styles start ***********/
+.about-section {
+    background-color: #fff;
+}
+
+.about-section__wrapper {
+    margin-bottom: 128px;
+    position: relative;
+    display: flex;
+}
+
+.about-section__subtitle {
+    margin: 0;
+    padding-bottom: 5px;
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+    border-bottom: 2px solid #FE6B01;
+
+}
+
+.about-section__info--title {
+    margin: 0;
+    margin-top: 13px;
+    margin-bottom: 24px;
+    width: 492px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.about-section__info--text {
+    margin-bottom: 20px;
+    width: 505px;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--main-text-color);
+}
+
+.service {
+    color: #FE6B01;
+}
+
+.about-section__info--text2 {
+    margin-bottom: 48px;
+    width: 505px;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--main-text-color);
+}
+
+.about-section__img--around {
+    position: absolute;
+    top: 22px;
+    left: 740px;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    background-color: #BADAF4;
+}
+
+.about-section__img1 {
+    width: 440px;
+    position: absolute;
+    left: 545px;
+    top: 112px;
+    z-index: 50;
+}
+
+.about-section__img2 {
+    position: absolute;
+    left: 840px;
+    top: 0;
+    z-index: 5;
+}
+
+.about-section__points {
+    position: absolute;
+    left: 1072px;
+    top: 340px;
+
+}
+
+/*********** About section styles end ***********/
+
+
+.clean-section {
+    background-color: var(--main-bg-color);
+}
+
+.clean-section__start {
+    text-align: center;
+    font-weight: 500;
+}
+
+.clean-section__wrapper {
+    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.clean-section__title {
+    display: inline;
+    margin: 0;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+    border-bottom: 2px solid #FE6B01;
+}
+
+.clean-section__subtitle {
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.clean-section__text {
+    margin: 0 auto;
+    margin-bottom: 72px;
+    width: 570px;
+    font-size: 18px;
+    line-height: 156%;
+    color: #647685;
+}
+
+.clean-section__card--list {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.clean-section__card--item {
+    padding: 32px 32px 40px 32px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 12px;
+}
+
+.card-item__icon {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: rgba(255, 202, 69, 0.2);
+    box-shadow: 0px 17.3392px 36.1233px rgba(0, 0, 0, 0.05);
+}
+.item-icon__office{
+    background-color: rgba(72, 183, 116, 0.2);
+}
+.item-icon__home{
+    background-color: rgba(255, 131, 69, 0.2);
+}
+.card-item__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    color: #1B1E1C;
+}
+
+.card-item__text {
+    width: 350px;
+    font-size: 18px;
+    line-height: 156%;
+    color: #767877;
+}
+.clean-section__btn{
+    display: flex;
+}
 /********** MAIN STYLES END **********/
