@@ -79,7 +79,7 @@ body {
 
 img {
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 .visually-hidden {
@@ -779,14 +779,24 @@ a {
 /********** Bussines section sytles start  **********/
 .bussines-section {
     background-color: #fff;
+    background-image: url('../images/points.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .bussines-section__box--list {
     display: flex;
 }
-.bussines-section__wrapper{
+
+.bussines-section__wrapper {
+    margin-bottom: 90px;
     position: relative;
-    display: flex;
+    padding-top: 279px;
+    padding-bottom: 264px;
+}
+
+.bussines-section__around--img {
+    position: absolute;
 
 }
 
@@ -841,13 +851,448 @@ a {
     line-height: 100%;
     color: #222326;
 }
-.bussines-section__box2{
+
+.bussines-section__box2 {
     position: absolute;
     z-index: 0;
-    top: 20px;
-    left: 290px;
+    top: 300px;
+    left: 225px;
 }
+
+.bussines-section__end {
+    padding-top: 90px;
+    margin-left: 750px;
+}
+
+.bussines-section__end--subtitle {
+    margin: 0;
+    display: inline;
+    border-bottom: 2px solid #FF8345;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+}
+
+.bussines-section__end--title {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 510px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.bussines-section__end--text {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 410px;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--main-text-color);
+}
+
+.bussines-section__pay {
+    margin-top: 68px;
+    margin-bottom: 60px;
+
+}
+
+.monthly-link {
+    padding: 34px 62px 34px 62px;
+    width: 218px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background-color: #1F6BFF;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.yearly-link {
+    padding: 34px 62px 34px 62px;
+    width: 218px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background-color: #FF8345;
+    border-radius: 0 8px 8px 0;
+}
+
+.section-button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border: 1px solid #007CFA;
+    background-color: transparent;
+    border-radius: 50%;
+    font-weight: 700px;
+    color: #007CFA;
+}
+
+.section-button:hover {
+    background-color: #007CFA;
+    color: #fff;
+}
+
 /********** Bussines section sytles  end  **********/
 
 
+/********** Queston section sytles  start  **********/
+.question-section {
+    background-color: var(--main-bg-color);
+}
+
+.question-section__wrapper {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.question-section__title {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 11px;
+    border-bottom: 2px solid #FF8345;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+}
+
+
+.question-section__subtitle {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.question-section__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.question-section__item {
+    margin-bottom: 40px;
+    padding: 40px 18px 40px 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.question-section__about {
+    display: flex;
+    align-items: center;
+}
+
+.question-section__btn {
+    width: 30px;
+    height: 30px;
+    padding: 14px 10px 14px 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    border: 1px solid #050931;
+    font-weight: 600px;
+}
+
+.question-section__card--title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #050931;
+}
+
+
+.question-section__card--text {
+    padding-left: 45px;
+    width: 517px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--main-text-color);
+}
+
+/********** Queston section sytles  end  **********/
+
+/********** Clients section sytles  start  **********/
+.clients-section {
+    background-color: #fff;
+    position: relative;
+}
+
+.clients-section__wrapper {
+
+    padding: 120px 0;
+    text-align: center;
+}
+
+.question-section__img {
+    margin-bottom: 60px;
+}
+
+.clients-section__title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #050931;
+}
+
+.clients-section__text {
+    margin: 0 auto;
+    width: 800px;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: -0.015em;
+    color: var(--main-text-color);
+}
+
+.text2 {
+    margin-top: 48px;
+    margin-bottom: 97px;
+}
+
+.clients-left-img1 {
+    position: absolute;
+    left: 0;
+    top: 647px;
+}
+
+.clients-left-img2 {
+    position: absolute;
+    left: 23px;
+    top: 445px;
+}
+
+.clients-left-img3 {
+    position: absolute;
+    left: 115px;
+    top: 550px;
+}
+
+.clients-left-img4 {
+    position: absolute;
+    left: 190px;
+    top: 330px;
+}
+
+.clients-right-img1 {
+    position: absolute;
+    left: 1025px;
+    top: 400px;
+}
+
+.clients-right-img2 {
+    position: absolute;
+    left: 1135px;
+    top: 675px;
+}
+
+.clients-right-img3 {
+    position: absolute;
+    right: 0;
+    top: 310px;
+}
+
+.clients-right-img4 {
+    position: absolute;
+    right: 0;
+    top: 635px;
+}
+
+/********** Clients section sytles  end  **********/
+
+
+/********** Contacts section sytles  start  **********/
+.contact-section {
+    background-image: linear-gradient(to bottom, #F4F9FD 50%, #fff 50%);
+}
+
+.contact-section__wrapper {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact-section__box--wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 58px;
+    padding-bottom: 55px;
+    padding-left: 124px;
+    padding-right: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 56px 80px -16px rgba(219, 222, 229, 0.8);
+}
+
+.contact-secction__box--titile {
+    display: inline-block;
+    border-bottom: 2px solid #FE6B01;
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #050931;
+}
+
+.contact-secton__box--subtitle {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #050931;
+}
+
+.contact-section__box--start {
+    padding-top: 160px;
+}
+
+.conatact-section__box--text {
+    width: 368px;
+    font-size: 24px;
+    line-height: 156%;
+    color: #7A7B7D;
+}
+
+.contact-section__box-number {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #1F6BFF;
+}
+
+
+.contact-section__box--item {
+    display: block;
+    width: 466px;
+}
+
+.contact-section__box--end {
+    margin-left: 184px;
+}
+
+.contact-section__end--text {
+    padding: 20px;
+    border-bottom: 1px solid #DBDBDB;
+    font-size: 16px;
+    line-height: 100%;
+    color: #969696;
+}
+
+.end--text2 {
+    padding-bottom: 120px;
+}
+
+.contact-section__btn {
+    padding: 18px 171px;
+    background-color: #1F6BFF;
+    border: 1px solid #1F6BFF;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 166%;
+    color: #FFFFFF;
+}
+
+/********** Contacts section sytles  end  **********/
+
 /********** MAIN STYLES END **********/
+
+
+
+/********** FOOTER STYLES START **********/
+.site-footer {
+    background-color: #DBEBF8;
+}
+
+.site-footer__list {
+    display: flex;
+    gap: 70px;
+}
+
+.site-footer__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #050931;
+}
+
+.site-footer__text {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 156%;
+    color: #7A7B7D;
+}
+
+.main-text {
+    width: 371px;
+}
+
+.day-text {
+    margin-bottom: 8px;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    padding: 23px 24px;
+    border: none;
+    background-color: #1F6BFF;
+    font-size: 18px;
+    line-height: 165%;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    margin-left: 80px;
+}
+
+.footer-images {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-texts {
+    margin-left: 20px;
+}
+
+.footer-end__text {
+    font-size: 15px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+/********** FOOTER STYLES END**********/
